@@ -1,0 +1,39 @@
+#logo {
+  color: red;
+  font-size: xx-large;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+.shopping-bag-total {
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: large;
+  font-weight: 500;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.btn-delete,
+.btn-like,
+.btn-plus,
+.btn-moins {
+  border: none;
+  background: none;
+  outline: 0;
+}
+.like {
+  fill: black;
+  height: 25px;
+  width: 25px;
+}
